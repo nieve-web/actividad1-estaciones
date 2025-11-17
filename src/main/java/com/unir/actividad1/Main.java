@@ -163,14 +163,14 @@ public class Main {
         
         String provincia     = c[0];
         String municipio     = c[1];
-        String localidad     = c[3];     // <-- CORRECTO (no c[2])
+        String localidad     = c[3];
         String codigoPostal  = c[4];
         String direccion     = c[5];
         String longitudStr   = c[6];
         String latitudStr    = c[7];
         String precio95Str   = c[8];
         String precioGasAStr = c[10];
-        String empresa       = c[22];    // <-- CORRECTO (no c[21])
+        String empresa       = c[22];
         
         double lat = parseDoubleOrNull(latitudStr);
         double lon = parseDoubleOrNull(longitudStr);
